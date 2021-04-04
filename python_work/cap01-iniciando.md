@@ -1,6 +1,6 @@
-# FAÇA VOCÊ MESMO
+### FAÇA VOCÊ MESMO
 
-## 1.3 - Habilidadas infinitas
+**1.3 - Habilidadas infinitas**
 
 Se tivesse infinitas habilidades de programação, o que você desenvolveria? 
 
