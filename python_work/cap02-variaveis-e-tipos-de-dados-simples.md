@@ -9,11 +9,20 @@ Por exemplo, quando vê a palavra **`print`**, o interpretador exibe na tela o q
 ## Variáveis
 
 Toda variável armazena um valor, que é a informação associada a essa variável.
+<<<<<<< Updated upstream
 ### FAÇA VOCÊ MESMO
 
 Escreva um programa separado para resolver cada um destes exercícios. Salve cada programa com um nome de arquivo que siga as convenções-padrão de
 Python, com letras minúsculas e underscores, por exemplo, *simple_message.py* e
 *simple_messages.py*.
+=======
+
+### FAÇA VOCÊ MESMO
+
+Escreva um programa separado para resolver cada um destes exercícios. Salve cada programa com um nome de arquivo que siga as convenções-padrão de
+Python, com letras minúsculas e underscores, por exemplo, [simple_message.py](D:\repoCode\ws-python\python-crash-course\python_work\simple_message.py) e
+[simple_messages.py](D:\repoCode\ws-python\python-crash-course\python_work\simple_messages.py).
+>>>>>>> Stashed changes
 
 **2.1 – Mensagem simples:**  
 Armazene uma mensagem em uma variável e, em
@@ -116,7 +125,11 @@ armazenando a mensagem em uma variável, deixa a instrução *print* final muito
 
 Em programação, *espaços em branco* se referem a qualquer caractere que não é mostrado, como espaços, tabulações e símbolos de fim de linha.
 
+<<<<<<< Updated upstream
 * Para acrescentar uma tabulação em seu texto, utilize a combinaçã de caracteres `\t`:  
+=======
+* Para acrescentar uma tabulação em seu texto, utilize a combinação de caracteres `\t`:  
+>>>>>>> Stashed changes
 
 ```py
 In [1]: print("Python")
@@ -149,8 +162,88 @@ Languages:
 
 Quebras de linha e tabulações são muito úteis quando geramos muitas linhas de saída usando apenas algumas linhas de código.
 
+<<<<<<< Updated upstream
 ### Removendo espaçosembranco
 
 > página 65
 
 [to be continued...]() 
+=======
+### Removendo espaços em branco
+
+> página 65
+
+Python é capaz de encontrar espaços em branco dos lados direito e
+esquerdo de uma string.  
+
+**`rstrip()`** - O método garante que não haja espaços em branco do lado direito de uma string.
+
+```py
+u >>> favorite_language = 'python '
+v >>> favorite_language
+'python '
+w >>> favorite_language.rstrip()
+'python'
+x >>> favorite_language
+'python '
+```
+O valor armazenado em *favorite_language* em **u** contém um espaço em
+branco extra no final da string.  
+podemos ver o espaço no final do valor **v**.  
+Quando o método **`rstrip()`** atua na variável *favorite_language* em **w**, esse espaço extra é removido.   Entretanto, a remoção é temporária. Se solicitar o valor de *favorite_language* novamente, você poderá ver que a string é a mesma que foi fornecida, incluindo o espaço em branco extra **x**.  
+Para remover o espaço em branco da string de modo permanente, você
+deve armazenar o valor com o caractere removido de volta na variável:
+
+```py
+u >>> favorite_language = favorite_language.rstrip()
+>>> favorite_language
+'python'
+```
+Para remover o espaço em branco da string, você deve remover o espaço
+em branco do lado direito da string e então armazenar esse valor de volta
+na variável original, como mostrado em **u**.
+
+>  Alterar o valor de uma variável e então armazenar o novo valor de volta na variável original é uma operação frequente em programação. É assim que o valor de uma variável pode mudar à medida que um programa é executado ou em resposta à entrada de usuário.
+
+Também podemos remover espaços em branco do lado esquerdo de uma
+string usando o método **`lstrip()`**, ou remover espaços em branco dos dois
+lados ao mesmo tempo com **`strip()`**:
+
+ ```py
+ u >>> favorite_language = ' python '
+ v >>> favorite_language.rstrip()
+ ' python'
+ w >>> favorite_language.lstrip()
+ 'python '
+ x >>> favorite_language.strip()
+ 'python'
+ ```
+
+Nesse exemplo, começamos com um valor que tem espaços em branco
+no início e no fim **u**. Então removemos os espaços extras do lado direito
+em **v**, do lado esquerdo em **w** e de ambos os lados em **x**.
+
+> No mundo real, essas funções de remoção são usadas com mais frequência para limpar entradas de usuário antes de armazená-las em um programa.
+
+## Evitando erros de sintaxe com strings
+
+> página 67
+
+Eis o modo de usar aspas simples e duplas corretamente. Salve este programa como *apostrophe.py* e então execute-o:
+
+```py
+message = "One of Python's streingths is its diverse community"
+print(message)
+```
+
+
+
+
+
+
+
+
+
+
+[to be continued...]()
+>>>>>>> Stashed changes
