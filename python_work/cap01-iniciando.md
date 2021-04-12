@@ -1,8 +1,12 @@
+<<<<<<< Updated upstream
 # FAÇA VOCÊ MESMO
+=======
+## FAÇA VOCÊ MESMO
+>>>>>>> Stashed changes
 
 ## 1.3 - Habilidadas infinitas
 
-Se tivesse infinitas habilidades de programação, o que você desenvolveria? 
+Se tivesse infinitas habilidades de programação, o que você desenvolveria?
 
 **Você está prestes a aprender a programar**. Se tiver um objetivo final em mente, você terá um uso imediato para suas novas habilidades;
 
