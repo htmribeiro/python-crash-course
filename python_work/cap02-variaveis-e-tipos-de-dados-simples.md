@@ -236,13 +236,25 @@ message = "One of Python's streingths is its diverse community"
 print(message)
 ```
 
+O apóstrofo aparece entre um conjunto de aspas duplas, portanto o interpretador Python não terá nenhum problema para ler a string corretamente
 
+No entanto, se você usar aspas simples, o interpretador Python não será capaz de identificar em que ponto a string deve terminar:
 
+```py
+message = 'One of Python's strengths is its diverse community.'
+print(message)
+```
 
+Você verá a saída a seguir:
 
+```ps
+File "apostrophe.py", line 1
+message = 'One of Python's strengths is its diverse community.'
+                        ^u
+SyntaxError: invalid syntax
+```
 
-
-
+Na saída, podemos ver que o erro ocorre em **u**, logo depois da segunda aspa simples. Esse erro de sintaxe informa que o interpretador não reconheceu algo como código Python válido.
 
 
 [to be continued...]()
